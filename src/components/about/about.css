@@ -1,0 +1,123 @@
+.about{
+    height: 100vh;
+    background-color: rgb(228, 230, 234);
+    padding:  25vh 0vw;  
+}
+.span{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(to right,#9e0880,#ffbb00);
+      
+    height: 10%;
+    left: 0;
+    bottom: -5px;
+}
+/* absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-pink-500 to-yellow-500  */
+.big-box{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid ; */
+    row-gap: 10px;
+
+}
+
+.about-h1{
+    text-align: center;
+    font-size: 250%;
+    line-height: 100%!important;
+}
+.about-pera{
+    padding-left:4%;
+    padding-right:4%;
+    /* border: 1px solid; */
+    /* width: 70%; */
+    text-align: center;
+    font-size: 130%;
+    line-height: 120%!important;
+    color: rgb(115, 108, 108);
+}
+.big{
+    /* padding: 10px; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.box-0{
+    /* height: 22px; */
+    padding:4px 7px;
+    background-color: rgb(223, 220, 220);
+    border: 1px solid grey;
+    border-radius: 8px;
+
+
+}
+.first{
+    width:92% ;
+    border: 1px solid rgb(204, 199, 199);
+    border-radius:10px ;
+    padding: 20px;
+    box-shadow: .2em 0.2em 1em rgba(182, 178, 179, 0.7);
+
+}
+.first-1 p{
+    font-size: 120%;
+    line-height: 115%!important;
+    padding: 8px;
+    color: rgb(97, 95, 93);
+}
+.first-2{
+/* display: flex; */
+flex-direction: column;
+row-gap: 10px;
+/* padding: 8px; */
+}
+.head-box{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 19px;
+    padding: 8px;
+}
+.cart{
+    /* border: 1px solid red; */
+    padding: 11px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 800px){
+    .big{
+        /* padding: 10px; */
+        /* border: 1px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+         justify-content:center;
+        flex-direction: row;
+    }
+    .first{
+        width: 40%;
+        height:28vh;
+    }
+    .about-pera{
+    padding-left: 22%;
+    padding-right:22%;
+    /* border: 1px solid; */
+    /* width: 70%; */
+    text-align: center;
+    font-size: 150%;
+    line-height: 120%!important;
+    color: rgb(115, 108, 108);
+}
+}

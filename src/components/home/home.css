@@ -1,0 +1,50 @@
+.home{
+    /* background-color: rgb(32, 42, 42);   */
+    background-image: linear-gradient(to left,#3b82f6,#2dd4bf);
+
+    padding: 20px;
+}
+.main-mid{
+    height: 90vh;
+   /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+.mid{
+    align-self: center;
+    /* border: 1px solid; */display: flex;
+    text-align: center;
+ 
+}
+.head{
+    font-size: 300%;
+    line-height: 100%!important;
+    color: white;
+    
+}
+.pera{
+    color: white;
+    font-size: 115%;
+    line-height: 140%!important;
+ 
+}
+
+
+@media screen and (min-width: 800px){
+    .head{
+    font-size: 340%;
+        line-height: 140%!important;
+    }
+.main-mid{
+    row-gap: 4px;
+    }
+.pera{
+    width: 60vw;
+    font-size: 150%;
+    line-height: 130%!important;
+    
+}
+
+}
